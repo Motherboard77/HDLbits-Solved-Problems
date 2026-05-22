@@ -1,0 +1,81 @@
+$date
+	Fri May 22 07:03:47 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb $end
+$var wire 1 ! z $end
+$var reg 1 " areset $end
+$var reg 1 # clk $end
+$var reg 1 $ x $end
+$scope module uut $end
+$var wire 1 " areset $end
+$var wire 1 # clk $end
+$var wire 1 $ x $end
+$var wire 1 ! z $end
+$var reg 1 % state $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0%
+0$
+0#
+1"
+0!
+$end
+#5
+1#
+#7
+0"
+#10
+0#
+#15
+1#
+#17
+1!
+1$
+#20
+0#
+#25
+0!
+1%
+1#
+#27
+1!
+0$
+#30
+0#
+#35
+1#
+#37
+0!
+1$
+#40
+0#
+#45
+1#
+#50
+0#
+#55
+1#
+#57
+1!
+0$
+#60
+0#
+#65
+1#
+#70
+0#
+#75
+1#
+#77
