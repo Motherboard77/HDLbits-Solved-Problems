@@ -47,6 +47,6 @@ The testbench validates:
 ## Waveform Screenshot
 Below is the simulation waveform captured from the testbench run.
 
-![FSM Waveform](fsm_clk_waveform.png)
+![FSM Waveform](Waveform_Vivado.png)
 
-> Add `fsm_clk_waveform.png` to this directory to embed the actual screenshot in the README.
+> The waveform image is `Waveform_Vivado.png` in this directory.
