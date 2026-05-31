@@ -43,3 +43,10 @@ The testbench validates:
 - Multiple 3-cycle windows with different `w` patterns
 - Cases with 0, 1, 2, and 3 ones in the 3-cycle window
 - Correct z output generation
+
+## Waveform Screenshot
+Below is the simulation waveform captured from the testbench run.
+
+![FSM Waveform](fsm_clk_waveform.png)
+
+> Add `fsm_clk_waveform.png` to this directory to embed the actual screenshot in the README.
