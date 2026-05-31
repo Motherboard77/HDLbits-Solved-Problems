@@ -3,6 +3,8 @@
 ## Problem Statement
 Finite State Machine that detects when exactly 2 of 3 consecutive clock cycles have `w=1`.
 
+![FSM Problem Statement](problem_statement.png)
+
 ## Waveform Screenshot
 Below is the simulation waveform captured from the testbench run.
 
