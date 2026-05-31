@@ -3,6 +3,13 @@
 ## Problem Statement
 Finite State Machine that detects when exactly 2 of 3 consecutive clock cycles have `w=1`.
 
+## Waveform Screenshot
+Below is the simulation waveform captured from the testbench run.
+
+![FSM Waveform](Waveform_Vivado.png)
+
+> The waveform image is `Waveform_Vivado.png` in this directory.
+
 ### Behavior
 - **State A**: Initial/reset state. Waits for `s=1` input.
 - **State B**: Active state. Monitors input `w` over 3-cycle windows.
@@ -43,10 +50,3 @@ The testbench validates:
 - Multiple 3-cycle windows with different `w` patterns
 - Cases with 0, 1, 2, and 3 ones in the 3-cycle window
 - Correct z output generation
-
-## Waveform Screenshot
-Below is the simulation waveform captured from the testbench run.
-
-![FSM Waveform](Waveform_Vivado.png)
-
-> The waveform image is `Waveform_Vivado.png` in this directory.
