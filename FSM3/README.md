@@ -9,6 +9,12 @@ Description:
 - Inputs: `clk`, `reset` (synchronous), `w`.
 - Output: `z` (depends only on the current state).
 
+## Problem Statement
+
+The FSM problem diagram is shown below:
+
+![FSM3 problem diagram](FSM3.png)
+
 State encoding (3-bit binary):
 
 - A = 3'b000
