@@ -2,6 +2,8 @@
 
 This directory contains a Verilog implementation of a request/grant finite state machine.
 
+![FSM Requester Grant Problem Statement](FSM_req_Gnt.png)
+
 ## Design
 The `top_module` implements a synchronous FSM with an active-low reset (`resetn`). It receives a 3-bit request vector `r[3:1]` and asserts a corresponding grant output `g[3:1]`.
 
