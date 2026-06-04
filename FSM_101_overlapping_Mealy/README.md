@@ -20,6 +20,10 @@ Running the testbench
 
    gtkwave mealy_overlapped.vcd
 
+State diagram
+
+![State diagram](state_diagram.png)
+
 What the testbench does
 - Toggles a 10 ns clock
 - Releases reset after a short delay
