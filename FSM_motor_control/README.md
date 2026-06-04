@@ -36,6 +36,12 @@ The FSM implements a motor controller with the following behavior:
 - **f (Flag)**: Set to 1 only in state B (one clock cycle after reset)
 - **g (Motor Control)**: Set to 1 when FSM is in states D, E, E0, or E1 (i.e., after pattern 101 is detected)
 
+## State Diagram
+
+![FSM State Diagram](FSM5.png)
+
+The above diagram illustrates the complete finite state machine with all state transitions and control signals.
+
 ## Architecture Details
 
 ### Key Components:
