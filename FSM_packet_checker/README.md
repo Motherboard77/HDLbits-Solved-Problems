@@ -2,6 +2,12 @@
 
 This directory contains a simple finite state machine that classifies input packet patterns based on consecutive ones and a terminating zero.
 
+## Problem Statement
+
+The problem statement is included as an image file in this directory:
+
+![FSM packet checker problem statement](FSM_packet.png)
+
 ## Module
 
 - `fsm_packet.v`: top-level Verilog RTL module implementing the packet checker.
