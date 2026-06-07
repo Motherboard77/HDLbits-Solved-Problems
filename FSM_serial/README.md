@@ -2,6 +2,8 @@
 
 This directory contains a simple UART-style frame detector implemented in Verilog.
 
+![Problem Statement](FSM_serial.png)
+
 ## Module Interface
 
 `top_module` inputs:
