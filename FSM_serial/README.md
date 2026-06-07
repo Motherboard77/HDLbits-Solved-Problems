@@ -1,8 +1,8 @@
 # UART Frame Detector (serial_uart)
 
-This directory contains a simple UART-style frame detector implemented in Verilog.
+This directory contains a simple UART-style frame detector implemented in Verilog. The updated problem statement now requires the design to output the received 8-bit data when the `done` signal is asserted.
 
-![Problem Statement](FSM_serial.png)
+![Updated Problem Statement](FSM_Datapath.png)
 
 ## Module Interface
 
