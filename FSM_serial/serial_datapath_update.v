@@ -63,9 +63,4 @@ module top_module(
             endcase
         end
 
-
-    
-    //assign done = (state == D) ;
-    // New: Datapath to latch input bits.
-
 endmodule
